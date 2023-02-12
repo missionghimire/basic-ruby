@@ -27,22 +27,29 @@
 # end
 # name "mission"
 
-require 'set'
+# require 'set'
 
 
-first = Set.new([1, 2, 3, 4, 5])
+# first = Set.new([1, 2, 3, 4, 5])
 
-second = Set.new([3, 4, 5, 6, 7])
+# second = Set.new([3, 4, 5, 6, 7])
 
-first.add(6)
-first << 7
+# first.add(6)
+# first << 7
 
-first.delete(5)
-first.delete_if { |x| x > 3 }
+# first.delete(5)
+# first.delete_if { |x| x > 3 }
 
-first.include?(3)
+# first.include?(3)
 
-union = first | second
-intersection = first & second
-difference = first - second
-puts (difference)
+# union = first | second
+# intersection = first & second
+# difference = first - second
+# puts (difference)
+
+
+name="mission"
+# puts name.empty?
+
+# puts name.sub("n","ram")
+puts "my name is #{name}"
